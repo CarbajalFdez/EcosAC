@@ -28,7 +28,7 @@ body {
 }
 
 header {
-	background:var(--color3);
+	background:var(--color6);
 	color:var(--color2);
 	float:left;
 	padding:1em;
@@ -49,6 +49,7 @@ header nav ul li {
 
 header nav ul li a {
 	background:var(--color4);
+	border:solid 2px var(--color1);
 	color:var(--color2);
 	padding:1em 1.5em;
 	float:left;
