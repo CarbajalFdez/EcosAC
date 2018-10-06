@@ -56,6 +56,11 @@ header nav ul li a {
 	float:left;
 }
 
+header nav ul li a:hover {
+	background:var(--color3);
+	transition:ease .5s all;
+}
+
 .contenedor {
 	padding:1em;
 }
