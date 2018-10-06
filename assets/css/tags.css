@@ -35,6 +35,14 @@ header {
 	width:100%;
 }
 
+header div img {
+	background:var(--color2);
+	border:solid 2px var(--color4);
+	border-radius:50% 10% 50% 50%;
+	height:3em;
+	float:left;
+}
+
 header nav {
 	float:right;
 }
