@@ -48,6 +48,9 @@ header nav ul li {
 }
 
 header nav ul li a {
+	background:var(--color4);
+	color:var(--color2);
+	padding:1em 1.5em;
 	float:left;
 }
 
