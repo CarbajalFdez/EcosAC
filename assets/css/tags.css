@@ -35,6 +35,10 @@ header {
 	width:100%;
 }
 
+header nav {
+	float:right;
+}
+
 header nav ul {
 	list-style:none;
 }
