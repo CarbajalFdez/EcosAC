@@ -35,6 +35,18 @@ header {
 	width:100%;
 }
 
+header nav ul {
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	float:left;
+}
+
 .contenedor {
 	padding:1em;
 }
