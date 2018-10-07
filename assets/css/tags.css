@@ -38,14 +38,14 @@ header div img {
 	background:var(--color2);
 	border:solid 2px var(--color4);
 	border-radius:50% 10% 50% 50%;
-	height:4.5em;
+	height:5.5em;
 	float:left;
 	margin:.5em .5em .5em 1em;
 }
 
 header div span {
 	float:left;
-	margin:1em 0px;
+	margin:1.5em 0px;
 }
 
 header div span h1 {
@@ -60,7 +60,7 @@ header div span h2 {
 
 header nav {
 	float:right;
-	margin:1em;
+	margin:1.5em;
 }
 
 header nav ul {
@@ -83,6 +83,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
 	background:var(--color3);
+	border:solid 2px var(--color2);
 	color:var(--color2);
 	transition:ease .5s all;
 }
