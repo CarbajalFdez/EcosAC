@@ -43,12 +43,16 @@ header div img {
 	float:left;
 }
 
-header div h1 {
+header div span {
+	float:left;
+}
+
+header div span h1 {
 	font-size:2em;
 	margin-top:.04em;
 }
 
-header div h2 {
+header div span h2 {
 	font-size:1em;
 	margin-bottom:.04em;
 }
