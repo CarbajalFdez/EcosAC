@@ -72,7 +72,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-	background:var(--color7);
+	background:var(--color2);
 	border:solid 2px var(--color1);
 	border-radius:10%;
 	color:var(--color1);
