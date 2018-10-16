@@ -1,0 +1,25 @@
+<!-- CREADO POR JOSE A. CARBAJAL -->
+<!DOCTYPE html>
+<html lang="es-MX">
+{% include head.html %}
+<body>
+{% include header.html %}
+{{ content }}
+<!-- S L I D E R -->
+<div class="container">
+	<div class="row">
+		<div class="col s12 m12 s12">
+			<div id="slides">
+				<img src="{{ site.baseurl }}/proyectos/{{ post.ruta }}/galeria/001.jpg">
+				<img src="{{ site.baseurl }}/proyectos/{{ post.ruta }}/galeria/002.jpg">
+        <img src="{{ site.baseurl }}/proyectos/{{ post.ruta }}/galeria/003.jpg">
+				<img src="{{ site.baseurl }}/proyectos/{{ post.ruta }}/galeria/004.jpg">
+        <img src="{{ site.baseurl }}/proyectos/{{ post.ruta }}/galeria/005.jpg">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- F I N    S L I D E R -->
+{% include footer.html %}
+</body>
+</html>
