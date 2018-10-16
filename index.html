@@ -16,3 +16,23 @@ title: Ecos de la Tierra AC • Proyectos Productivos y Medio Ambiente
     </article>
   {% endfor %}
 </div>
+
+{% for post in site.posts %}
+<div class="row">
+  <div class="col s12 m7">
+    <div class="card">
+      <div class="card-image">
+        <img src="images/sample-1.jpg">
+         <span class="card-title">{{ post.title }}</span>
+      </div>
+      <div class="card-content">
+          <p>{{ post.excerpt }}</p>
+      </div>
+      <div class="card-action">
+        <a href="{{ site.baseurl }}{{ post.url }}">This is a link</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
+ 
