@@ -133,17 +133,17 @@ footer {
 	margin:.5em 0px 0px .5em;
 }
 
-.blmovile {
+#brandlogomobile {
 	display:none;
 }
 
 @media only screen and (min-width: 800px) {
 
-	.bldesktop {
+	#brandlogodesktop {
 		display:none;
 	}
 	
-	.blmovile {
+	#brandlogomobile {
 		display:block;
 		aling:center;
 	}
