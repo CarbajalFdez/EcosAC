@@ -85,7 +85,7 @@ footer {
 }
 
 .slidesjs-play, .slidesjs-stop {
-	background:var(--color3);
+	background:#00e5ff;
 	border-radius:10%;
 	text-decoration:none;
 	padding:.5em 1em;
@@ -96,7 +96,7 @@ footer {
 }
 
 .slidesjs-previous, .slidesjs-next {
-	background:var(--color3);
+	background:#00e5ff;
 	border-radius:10%;
 	text-decoration:none;
 	padding:.5em 1em;
