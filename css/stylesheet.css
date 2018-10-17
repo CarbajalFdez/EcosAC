@@ -132,3 +132,24 @@ footer {
 	text-decoration:none;
 	margin:.5em 0px 0px .5em;
 }
+
+.blmovile {
+	display:none;
+}
+
+@media only screen and (min-width: 800px) {
+
+	.bldesktop {
+		display:none;
+	}
+	
+	.blmovile {
+		display:block;
+		aling:center;
+	}
+	
+}
+
+
+
+
