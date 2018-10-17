@@ -4,12 +4,13 @@
 {% include head.html %}
 <body class="gris-claro-ecos">
 {% include header.html %}
-<div class="container">
-<h2 class="center azul-ecos-text">{{ page.title }}</h2>
-<div align="justify">
-{{ content }}
-</div>
-</div>
+	<!-- C O N T E N I D O -->
+	<div class="container">
+		<h2 class="center azul-ecos-text">{{ page.title }}</h2>
+		<div align="justify">
+			{{ content }}
+		</div>
+	</div>
 <!-- S L I D E R -->
 <div class="container">
 	<div class="row">
@@ -31,20 +32,22 @@
 </div>
 <!-- F I N    S L I D E R -->
 {% include footer.html %}
-		<script>
-		// Slider
-		$(function(){
-		$("#slides").slidesjs({
-			width: 960,
-			height: 720,
-				play: {
-					active: true,
-					auto: true,
-					interval: 6000,
-					swap: true,
-  	   	   }
-			});
+<!-- S L I D E R -->
+<script>
+// Slider
+	$(function(){
+	$("#slides").slidesjs({
+		width: 960,
+		height: 720,
+			play: {
+				active: true,
+				auto: true,
+				interval: 6000,
+				swap: true,
+			}
 		});
-		</script>
+	});
+</script>
+<!-- F I N   D E    S L I D E R -->
 </body>
 </html>
